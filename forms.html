@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Формы</title>
+</head>
+<body>
+    <!-- Шапка сайта -->
+    <header>
+        <h1 style="color:red">Блок в верхней части страницы</h1>
+        <!-- ссылка для перехода на сайт, target="_blank" - открытие в новой вкладке -->
+        <a href="http://radiokot.ru" target="_blak">Переход на сайт</a>
+    </header>
+    <!-- Основное наполнение сайта -->
+    <main>
+        <h1>Главная часть страницы</h1>
+        <h2>Формы</h2>
+    <p>Автомобильный <b>стробоскоп</b> Вымпел СТ-04 предназначен для 
+    измерения и правильной установки <strong>угла</strong> опережения зажигания, 
+    диагностики неисправных узлов системы зажигания на карбюраторных 
+    и инжекторных двигателях, а также с <i>магнето и магдино</i>. Для 
+    проверки <em>правильной установки угла опережения впрыска</em> топлива на 
+    дизельных двигателях.</p>
+    <form>
+        <!-- Название и текстовое поле ввода формы -->
+        <label for="first">Имя</label>
+        <!-- minlength - минимальное, maxlength - максимальное количество символов -->
+        <input type="text" minlength="3" maxlength="15" placeholder="Введите Ваше имя"
+        id="first">
+        <!-- br - перенос строки -->
+        <br><br>        
+        <label for="second">Пароль</label>
+        <!-- password - тип пароля -->
+        <input type="password" minlength="4" maxlength="20" placeholder="Введите пароль от 4-х до 20-ти символов" id="second">
+        <br><br>
+        <!-- submit - тип подтверждения, value - изменение надписи на кнопке -->
+        <input type="submit" value="Ввод">
+        <br><br>
+        <label for="age">Возраст</label>
+        <!-- number - числовой тип -->
+        <input type="number" min="15" max="100" id="age"> 
+        <br>
+        <label for="color">Цвет</label>
+        <!-- color - тип цвет -->
+        <input type="color" id="color"> <br>
+        <label for="ru">Русский язык</label>
+        <!-- checkbox - тип чекбокс -->
+        <input type="checkbox" id="ru"> <br>
+        <label for="en">Английский язык</label>
+        <input type="checkbox" id="en"><br>
+        <label for="male">Мужской пол</label>
+        <!-- radio - тип безусловного выбора с аргументом name -->
+        <input type="radio" id="male" name="gender"><br>
+        <label for="female">Женский пол</label>
+        <input type="radio" id="female" name="gender"><br>
+        <!-- reset - тип сброса -->
+        <input type="reset"><br>
+        <!-- button - тип свободной кнопки с произвольным названием -->
+        <input type="button" value="Имя кнопки">
+    </form>
+    </main>
+    <!-- Подвал, допинформация -->
+    <footer>
+        <h1>Нижний блок страницы</h1>
+    </footer>
+</body>
+</html>

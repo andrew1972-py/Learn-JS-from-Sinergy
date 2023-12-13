@@ -1,0 +1,15 @@
+body, html{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+.container{
+    max-width:1200px;
+    margin:0 auto;
+    padding:40px 15px;
+}
+
+.form{
+    display:block;
+}

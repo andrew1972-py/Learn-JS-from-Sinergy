@@ -1,0 +1,24 @@
+.marker{
+    height: 30px;
+    width: 5px;
+    margin: 0;
+    padding: 0;
+    left: 2px;
+    position: absolute;
+  }
+  
+  .marker:hover{
+      height: 30px;
+      width: 5px;
+      margin: 0;
+      padding: 0;
+      left: 2px;
+      position: absolute;
+      border: #a276ff;
+      background-color: #a276ff;
+      z-index: 3;
+  }
+  
+  .marker-link{
+      
+  }

@@ -1,0 +1,5 @@
+<div class="item" onclick="('')">log</div>
+<div class="item" onclick="('')">ln</div>
+<div class="item" onclick="('')">lg</div>
+<div class="item" onclick="('')">rad</div>
+<div class="item" onclick="('')">deg</div>

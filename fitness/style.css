@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap');
+
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(0deg, rgba(163, 23, 23, 0.10) 0%, rgba(163, 23, 23, 0.10) 100%), linear-gradient(180deg, #030006 31.77%, #013 70.31%, #001 100%);
+}
+
+
+
+.main-page{
+  
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  background-image: url(./images/main_img.png);
+  background-repeat: no-repeat;
+  background-position-x: 111%;
+  background-position-y: -130px;
+}
+
+header{
+  width: 100ww;
+  position: absolute;
+  display: flex;
+}
+
+.geo-tel{
+  padding-top: 10px;
+  height: 80px;
+  width: max-content;
+  padding-right: 2%;
+  position: absolute;
+  margin-left: 85%;
+}
+
+.geo{
+  display: flexbox;
+  width: max-content;
+}
+
+.tel{
+  width: max-content;
+  display: flexbox;
+}
+
+.position{
+  display: inline;
+  color: #fff;
+  text-align: right;
+  justify-content: center;
+  font-family: Caveat;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.phone-number{
+  color: #3FB915;
+  text-align: justify;
+  font-family: Caveat;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+}
+
+.menu{
+  display: flex;
+  flex-direction: row;
+  width: 75vw;
+  justify-content: space-between;
+  align-items: baseline;
+  padding-left: 5%;
+}
+
+.logo{
+  width: 224px;
+  height: 104px;
+  
+}
+
+.img-logo{
+  padding-left: 44px;
+  padding-top: 48px;
+  position: relative;
+}
+
+.nav{
+  width: 952px;
+  height: 74px;
+  padding-top: 80px;
+  margin-left: 70px;
+}
+
+.menu_frame{
+  margin-top: 19px;
+  margin-bottom: 19px;
+}
+
+.link-menu{
+  color: #AD7DAA;
+  font-family: Caveat;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration-line: underline;
+}
+
+.contacts{
+  width: 128px;
+  height: 24px;
+  color: #3FB915;
+  font-family: Caveat;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration-line: underline;
+}
+  
+footer{
+  width: 100vw;
+  height: 18vh;
+  border: 1px solid #000;
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+  opacity: 0.7;
+  align-self: end;
+  background: linear-gradient(0deg, rgba(163, 23, 23, 0.10) 0%, rgba(163, 23, 23, 0.10) 100%), linear-gradient(0deg, rgba(3, 0, 6, 0.70) 0%, rgba(3, 0, 6, 0.70) 100%), linear-gradient(180deg, #07093E 22.4%, #760000 75.52%);
+}
+
+.b{
+  width: 25vw;
+  padding-left: 0.7%;
+  font-family: Caveat;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  letter-spacing: 1px;
+  border-top: 2px solid #000;
+  border-right: 2px solid #000;
+}
+
+.b1{
+  width: 25vw;
+  height: 47px;
+  text-align: left;
+  margin-left: 0,7%;
+  font-family: Caveat;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  
+  line-height: normal;
+  letter-spacing: 1px;
+}
+  
+p{
+    background: linear-gradient(180deg, #C50018 0%, #0047FE 100%);
+    margin-top: 10px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #0B2349;
+    opacity: 2;
+}
+
+main{
+  display: flex;
+  padding-left: 10vw;
+  position: absolute;
+}
+
+.main_h{
+  ;
+}

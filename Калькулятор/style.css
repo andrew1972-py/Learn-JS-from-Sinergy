@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Oswald:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap');
+
+
+body {
+    background-color: #0c0808;
+    user-select: none;
+    
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 4px;
+    background-color: #212121;
+    padding: 4px;
+    border-radius: 11px;
+    width: 100%;
+    max-width: 720px;
+    min-width: 320px;
+    max-height: 100%;
+    font-family: "Roboto";
+    height: 100%;
+    aspect-ratio: 1/1.25;
+}
+
+.item{
+    background-color: #0c0808;
+    border-radius: 9px;
+    color: bisque;
+    padding: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    cursor: pointer;
+    font-weight: 600;    
+}
+
+.input{
+    min-height: 60px;
+    justify-content: flex-end;
+    height: auto;
+    grid-column: -1/1;
+    background-color: bisque;
+    border-radius: 11px;
+    font-size: 2.5rem; 
+    color: #000; 
+    padding: 7px 15px; 
+}
+
+.item:hover{
+    background-color: transparent;
+    font-size: 2.2rem;
+}
+
+.item:active{
+    background-color: rgb(0, 83, 0);
+    font-size: 2.5rem;
+}
+
+.input:hover{
+    background-color: bisque;
+    font-size: 150%;
+}
+
+.equal:hover{
+    background-color: white;
+    color: rgb(212, 80, 3);
+    font-size: 2.5rem;
+
+}
+
+@media (max-width: 700px) {
+    .item {font-size: 1.5rem;}
+}
+
+
+
+@media (max-width: 600px) {
+    .input {font-size: 1.5rem;}
+}
+
+.clean, .back, .percent, .divide, .mul, .sub, .add, .plus-minus, .comma, .quote {
+    color: rgb(241, 208, 20);
+} 
+.mem {
+    color: rgb(124, 27, 252);
+}  
+
+.trig{
+    color: rgb(10, 211, 238);
+}
+
+.log{
+    color: rgb(214, 39, 92);
+}
+
+.sqrt{
+    color: rgb(212, 80, 3);
+}
+
+
+.equal{     
+    grid-column: 4/6;
+    background-color: rgb(212, 80, 3);
+    font-size: 30px;
+}
